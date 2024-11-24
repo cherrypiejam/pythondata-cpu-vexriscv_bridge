@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 
-from litex.soc.cores.cpu.vexriscv_smp import VexRiscvSMP
+from litex.soc.cores.cpu.vexriscv_bridge import VexRiscvBridge
 
-VexRiscvSMP.generate_default_configs()
+VexRiscvBridge.generate_default_configs()
