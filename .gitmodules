@@ -1,7 +1,7 @@
 [submodule "pythondata_cpu_vexriscv_bridge/verilog/ext/VexRiscv"]
 	path = pythondata_cpu_vexriscv_bridge/verilog/ext/VexRiscv
 	url = https://github.com/cherrypiejam/VexRiscv.git
-    branch = bridge
+    branch = bridge-pythondata
 [submodule "pythondata_cpu_vexriscv_bridge/verilog/ext/SpinalHDL"]
 	path = pythondata_cpu_vexriscv_bridge/verilog/ext/SpinalHDL
 	url = https://github.com/SpinalHDL/SpinalHDL.git
