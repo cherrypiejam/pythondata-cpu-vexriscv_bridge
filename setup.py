@@ -3,18 +3,18 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-from pythondata_cpu_vexriscv_smp import version_str
+from pythondata_cpu_vexriscv_bridge import version_str
 
 setuptools.setup(
-    name="pythondata-cpu-vexriscv-smp",
+    name="pythondata-cpu-vexriscv-bridge",
     version=version_str,
     author="LiteX Authors",
     author_email="litex@googlegroups.com",
     description="""\
-Python module containing verilog files for VexRISCV SMP cpu.""",
+Python module containing verilog files for VexRISCV BRIDGE cpu.""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/litex-hub/pythondata-cpu-vexriscv-smp",
+    url="https://github.com/litex-hub/pythondata-cpu-vexriscv-bridge",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -24,11 +24,11 @@ Python module containing verilog files for VexRISCV SMP cpu.""",
     zip_safe=False,
     packages=setuptools.find_packages(),
     package_data={
-    	'cpu_vexriscv_smp': ['cpu_vexriscv_smp/verilog/**'],
+    	'cpu_vexriscv_bridge': ['cpu_vexriscv_bridge/verilog/**'],
     },
     include_package_data=True,
     project_urls={
-        "Bug Tracker": "https://github.com/litex-hub/pythondata-cpu-vexriscv-smp/issues",
-        "Source Code": "https://github.com/litex-hub/pythondata-cpu-vexriscv-smp",
+        "Bug Tracker": "https://github.com/cherrypiejam/pythondata-cpu-vexriscv_bridge/issues",
+        "Source Code": "https://github.com/cherrypiejam/pythondata-cpu-vexriscv_bridge",
     },
 )
